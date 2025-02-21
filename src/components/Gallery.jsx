@@ -6,7 +6,7 @@ import { gallery_images } from "../constants/const";
 
 const Gallery = () => {
   return (
-    <section className="w-full max-w-6xl mx-auto">
+    <section id="gallery" className="w-full max-w-6xl mx-auto">
       <div>
         <h1>My Gallery</h1>
         <p className="mt-5">

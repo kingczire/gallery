@@ -1,23 +1,23 @@
 export const nav_links = [
   {
     title: "About Us",
-    link: "/about-us",
+    link: "#about-us",
   },
   {
     title: "Our team",
-    link: "/our-team",
+    link: "#our-team",
   },
   {
     title: "Gallery",
-    link: "/gallery",
+    link: "#gallery",
   },
   {
     title: "Class",
-    link: "/class",
+    link: "#class",
   },
   {
     title: "Event",
-    link: "/event",
+    link: "#event",
   },
 ];
 

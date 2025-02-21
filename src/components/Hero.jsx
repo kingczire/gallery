@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       className="relative h-screen flex flex-col items-center justify-center bg-cover bg-fixed md:bg-scroll bg-right bg-no-repeat md:bg-center"
-      style={{ backgroundImage: "url(./hero-bg.jpg)" }}
+      style={{ backgroundImage: "url(./gallery/hero-bg.jpg)" }}
     >
       <div className="my-auto">
         <h1>

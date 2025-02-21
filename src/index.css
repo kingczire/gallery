@@ -10,7 +10,7 @@
 
 @layer base {
   html {
-    @apply font-fira bg-gray-800 text-gray-300 overflow-x-hidden max-w-screen-2xl m-auto;
+    @apply font-fira bg-gray-800 text-gray-300 overflow-x-hidden max-w-screen-2xl m-auto scroll-smooth;
   }
 
   h1 {

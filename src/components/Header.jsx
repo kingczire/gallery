@@ -2,6 +2,7 @@ import { useState } from "react";
 import { nav_links } from "../constants/const";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { motion, AnimatePresence } from "framer-motion";
+import Logo from "./ui/Logo";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,11 +10,7 @@ const Header = () => {
     <header className="w-full px-6 py-4 md:p-16">
       {/* Desktop */}
       <div className="hidden md:flex justify-between items-center">
-        <div className="cursor-pointer border border-solid border-white rounded-md p-5 shadow-white/50 shadow-lg">
-          <a href="#home" className="text-4xl font-bodoni">
-            Science Titans
-          </a>
-        </div>
+        <Logo />
 
         <nav>
           <ul className="flex gap-5">
@@ -22,7 +19,7 @@ const Header = () => {
                 key={index}
                 className="hover:text-white transition text-nowrap"
               >
-                <a href={`#${nav.link}`}>{nav.title}</a>
+                <a href={`${nav.link}`}>{nav.title}</a>
               </li>
             ))}
           </ul>
@@ -32,9 +29,7 @@ const Header = () => {
       {/* Mobile */}
       <div className="flex md:hidden justify-between items-center">
         <div className="cursor-pointer z-50 relative">
-          <a href="#home" className="text-3xl font-bodoni">
-            Science Titans
-          </a>
+          <Logo />
         </div>
 
         <div className="z-50 relative">
@@ -59,7 +54,7 @@ const Header = () => {
                     onClick={() => setIsOpen(!isOpen)}
                     className="hover:text-white transition"
                   >
-                    <a href={`#${nav.link}`}>{nav.title}</a>
+                    <a href={`${nav.link}`}>{nav.title}</a>
                   </li>
                 ))}
               </ul>
