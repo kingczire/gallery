@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  html {
+    @apply font-fira bg-gray-800 text-gray-300 overflow-x-hidden max-w-screen-2xl m-auto;
+  }
+
+  h1 {
+    @apply text-5xl md:text-8xl font-bodoni font-bold;
+  }
+
+  h2 {
+    @apply text-xl font-cinzel;
+  }
+
+  h3 {
+    @apply font-rubik text-5xl font-bold;
+  }
+
+  section {
+    @apply px-6 py-10 md:p-24;
+  }
+}
+
+@layer utilities {
+  .bt {
+    @apply border border-red-500 border-solid;
+  }
+
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+  .flex-between {
+    @apply flex items-center justify-between;
+  }
+}
