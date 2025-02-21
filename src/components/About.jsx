@@ -13,7 +13,7 @@ const About = () => {
       <div className="absolute inset-0 bg-gradient-to-t from-white/50 to-black -z-50" />
       <div className="">
         <h3 className="font-rubik text-4xl md:text-5xl">
-          &#34;We are the Science Titans, born on a day of greatness&#34;
+          &#34;We are the Science Titans, born on the day of greatness&#34;
         </h3>
         <p className="mt-10 text-xl font-cinzel font-bold italic">
           Aim for The Sky
